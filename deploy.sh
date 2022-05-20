@@ -19,11 +19,13 @@ else
   msg='来自github actions的自动部署'
   githubUrl=https://luxiaokaiEx:${GITHUB_TOKEN}@github.com/luxiaokaiEx/vuepress-theme-vdoing.git
   git config --global user.name "luxiaokaiEx"
-  git config --global user.email "58725674+luxiaokaiEx@users.noreply.github.com"
+  git config --global user.email "18939397151@163.com"
 fi
 git config --global user.name "luxiaokaiEx"
-git config --global user.email "58725674+luxiaokaiEx@users.noreply.github.com"
+git config --global user.email "18939397151@163.com"
 echo 将要提交代码
+git config --list
+echo githubUrl地址："$githubUrl"
 git init
 git add -A
 git commit -m "${msg}"
