@@ -21,6 +21,9 @@ else
   git config --global user.name "luxiaokaiEx"
   git config --global user.email "58725674+luxiaokaiEx@users.noreply.github.com"
 fi
+git config --global user.name "luxiaokaiEx"
+git config --global user.email "58725674+luxiaokaiEx@users.noreply.github.com"
+echo 将要提交代码
 git init
 git add -A
 git commit -m "${msg}"
